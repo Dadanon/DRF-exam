@@ -12,6 +12,8 @@ django-rest-framework = "*"
 requests = "*"
 dj-rest-auth = "*"
 django-allauth = "*"
+coreapi = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "3.8"

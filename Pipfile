@@ -10,6 +10,8 @@ django = "==3.1"
 djangorestframework = "*"
 django-rest-framework = "*"
 requests = "*"
+dj-rest-auth = "*"
+django-allauth = "*"
 
 [requires]
 python_version = "3.8"

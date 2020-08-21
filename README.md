@@ -14,6 +14,11 @@ Instruction for local development:
 
 `pipenv install` - Install all dependencies
 
+##### If it has an error `failed to create virtual environment` - #####
+##### copy `Pipfile` information, delete `Pipfile` and `Pipfile.lock`, #####
+##### run `pipenv shell` and copy pipfile content into newly created pipfile. #####
+ 
+
 `pipenv shell` - Enter the virtual environment
 
 `python manage.py runserver` - RUN!

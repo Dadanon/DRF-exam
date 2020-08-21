@@ -47,11 +47,18 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth',  # Experimental
     'dj_rest_auth.registration',
+    # Swagger
+    'drf_yasg',
 
     # Local
     'posts.apps.PostsConfig',
     'api.apps.ApiConfig',
 ]
+
+SWAGGER_SETTINGS = {
+    'LOGIN_URL': 'rest_framework:login',
+    'LOGOUT_URL': 'rest_framework:logout',
+}
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
